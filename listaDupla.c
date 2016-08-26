@@ -91,3 +91,14 @@ void destroiLista(ListaDupla l) {
   free(l);
 }
 
+link MenorNo(Lista Dupla l) {
+  link t = l->head;
+  link aux;
+  if (head->item < t->item) {
+    aux = head;
+    head = t;
+    t = aux;
+  }
+  return t;
+}
+
