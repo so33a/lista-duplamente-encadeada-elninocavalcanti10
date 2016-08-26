@@ -18,6 +18,7 @@ int main () {
     removeNo(aux2);
   imprime(l);
   destroiLista(l);
-
+  link resultado = MenorNo(Lista Dupla l);
+  void OrdenaLista(lista dupla l, link head, link t);
   return 0;
 }
