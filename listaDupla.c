@@ -102,3 +102,12 @@ link MenorNo(Lista Dupla l) {
   return t;
 }
 
+void OrdenaLista(lista dupla l, link head, link t){
+  int j;
+    for (head = t->next; l != null; t = t->next) {
+       int t->prev = head;
+       for (j = t->next->next; ; j = j->next) 
+          if (j < t->next) t->next = j;
+       t = head; head = t->next; t->next = t;
+}
+
